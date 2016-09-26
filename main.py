@@ -14,7 +14,7 @@ def md5Hash():
     hex_dig = hash_object.hexdigest()
     print('Your hash is ' + hex_dig)
 
-# This fucntion determites which OS the client is using,
+# This function determites which OS the client is using,
 # so we don't call the wrong command to clear the screen.
 def clearScreen():
     if platform.system() == "Windows":
@@ -24,7 +24,7 @@ def clearScreen():
 
 # Introduction
 clearScreen()
-print("String Hasher v1.0")
+print("-=|String Hasher|=-")
 
 # Data (text) to hash
 text_to_hash = input("Insert a string to hash: ")
